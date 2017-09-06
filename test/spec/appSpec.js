@@ -42,6 +42,7 @@ describe('Siskel', function() {
   describe('Movie collection', function() {
 
     it('should have a default comparator for title', function() {
+      console.log(collection);
       expect(collection.comparator).to.equal('title');
     });
 
